@@ -12,16 +12,12 @@ body{
     justify-content: space-around;
 }
 h1{
+   
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     margin-bottom: 0.6em;
 }
-.titulo{
-    display: flex;
-    justify-content: start;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
+
 .columnatexto p{
     font-size: medium;
     color:gray;
@@ -30,7 +26,8 @@ h1{
 display: inline-flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
+margin-left: 10em;
 font-family: 'Azeret Mono', monospace;
 }
 .buton{
@@ -60,6 +57,10 @@ font-family: 'Azeret Mono', monospace;
     border-radius: 25%;
     width: 75%;
     height: auto;
+}
+
+.columnatexto h1{
+    justify-content: start
 }
 
 /* Hay que hacer que la imagen queda a un lado del texto */
