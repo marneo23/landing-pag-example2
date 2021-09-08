@@ -1,0 +1,65 @@
+body{
+    background-color: gray;
+}
+.columnatexto{
+    width:100%
+}
+.fondoblanco{
+    border-radius: 2em 2em 2em 2em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.6em;
+}
+.titulo{
+    display: flex;
+    justify-content: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.columnatexto p{
+    font-size: medium;
+    color:gray;
+}
+.columnatexto{
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Azeret Mono', monospace;
+}
+.buton{
+    margin-top: 2em;
+}
+.buton a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.5em;
+    border-radius: 2em;
+    margin:0.5em;
+    padding:0.1em 1em 0.1em 1em;
+    color:black;
+    border:3px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+.buton a:last-of-type{
+    color:white;
+    background-color: black;
+}
+.columnafoto{
+    display: inline;
+    background-color: white;
+}
+
+.columnafoto img{
+    border-radius: 25%;
+    width: 75%;
+    height: auto;
+}
+
+/* Hay que hacer que la imagen queda a un lado del texto */
